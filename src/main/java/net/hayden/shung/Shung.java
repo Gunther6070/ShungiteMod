@@ -1,6 +1,8 @@
 package net.hayden.shung;
 
 import com.mojang.logging.LogUtils;
+import net.hayden.shung.block.ModBlocks;
+import net.hayden.shung.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -19,6 +21,9 @@ public class Shung {
 
     public Shung() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
