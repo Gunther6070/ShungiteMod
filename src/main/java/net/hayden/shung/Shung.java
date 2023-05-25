@@ -3,6 +3,8 @@ package net.hayden.shung;
 import com.mojang.logging.LogUtils;
 import net.hayden.shung.block.ModBlocks;
 import net.hayden.shung.item.ModItems;
+import net.hayden.shung.world.feature.ModConfiguredFeatures;
+import net.hayden.shung.world.feature.ModPlacedFeatures;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -24,6 +26,9 @@ public class Shung {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModConfiguredFeatures.register(modEventBus);
+        ModPlacedFeatures.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

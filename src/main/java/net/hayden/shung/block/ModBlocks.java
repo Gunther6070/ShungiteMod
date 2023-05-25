@@ -1,6 +1,7 @@
 package net.hayden.shung.block;
 
 import net.hayden.shung.Shung;
+import net.hayden.shung.item.ModCreativeModeTab;
 import net.hayden.shung.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -21,7 +22,7 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> SHUNGITE_BLOCK = registerBlock("shungite_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(6f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_MISC);
+                .strength(3f).requiresCorrectToolForDrops()), ModCreativeModeTab.SHUN_TAB);
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
