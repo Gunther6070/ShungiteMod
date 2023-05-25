@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "shung:block/shungite_block",
+    "side": "shung:block/shungite_block",
+    "top": "shung:block/shungite_block"
+  }
+}

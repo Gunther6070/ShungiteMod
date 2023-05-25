@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "shung:block/shungite_block"
+    "all": "shung:block/shungite_bricks"
   }
 }

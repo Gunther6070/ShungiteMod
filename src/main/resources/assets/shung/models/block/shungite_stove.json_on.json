@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "front": "shung:block/shungite_stove_front_on",
+    "side": "shung:block/shungite_stove_side",
+    "top": "shung:block/shungite_stove_top",
+    "bottom": "shung:block/shungite_stove_bottom"
+  }
+}

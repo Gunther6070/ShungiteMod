@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "shung:block/polished_shungite",
+    "side": "shung:block/polished_shungite_slab_side"
+  }
+}

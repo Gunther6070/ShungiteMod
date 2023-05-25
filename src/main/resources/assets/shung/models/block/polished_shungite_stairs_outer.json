@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "shung:block/polished_shungite",
+    "side": "shung:block/polished_shungite",
+    "top": "shung:block/polished_shungite"
+  }
+}
