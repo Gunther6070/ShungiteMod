@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/template_wall_post",
   "textures": {
-    "wall": "shung:block/shungite_bricks"
+    "wall": "shung:block/polished_shungite_bricks"
   }
 }

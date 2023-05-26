@@ -23,7 +23,12 @@ public class ModBlocks {
     public static final RegistryObject<Block> SHUNGITE_BLOCK = registerBlock("shungite_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                 .strength(3f).requiresCorrectToolForDrops()), ModCreativeModeTab.SHUN_TAB);
-
+    public static final RegistryObject<Block> POLISHED_SHUNGITE_BLOCK = registerBlock("polished_shungite_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(3f).requiresCorrectToolForDrops()), ModCreativeModeTab.SHUN_TAB);
+    public static final RegistryObject<Block> POLISHED_SHUNGITE_BRICKS = registerBlock("polished_shungite_bricks",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(3f).requiresCorrectToolForDrops()), ModCreativeModeTab.SHUN_TAB);
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

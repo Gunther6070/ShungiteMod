@@ -8,7 +8,7 @@ public class ModCreativeModeTab {
     public static final CreativeModeTab SHUN_TAB = new CreativeModeTab("shuntab") {
         @Override
         public @NotNull ItemStack makeIcon() {
-            return new ItemStack(ModItems.SHUNGITE.get());
+            return new ItemStack(ModItems.RAW_SHUNGITE.get());
         }
     };
 }

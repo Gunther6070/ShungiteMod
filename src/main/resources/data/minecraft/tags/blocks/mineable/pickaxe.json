@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "shung:shungite_block"
+    "shung:shungite_block",
+    "shung:polished_shungite_block",
+    "shung:polished_shungite_bricks"
   ]
 }

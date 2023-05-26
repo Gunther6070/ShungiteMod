@@ -12,7 +12,7 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, Shung.MOD_ID);
 
-    public static final RegistryObject<Item> SHUNGITE = ITEMS.register("shungite",
+    public static final RegistryObject<Item> POLISHED_SHUNGITE = ITEMS.register("polished_shungite",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SHUN_TAB)));
     public static final RegistryObject<Item> RAW_SHUNGITE = ITEMS.register( "raw_shungite",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SHUN_TAB)));

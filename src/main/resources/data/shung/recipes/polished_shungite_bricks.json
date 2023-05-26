@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "shung:polished_shungite_block"
+  },
+  "result": "shung:polished_shungite_bricks"
+}

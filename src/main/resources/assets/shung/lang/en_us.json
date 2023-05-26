@@ -1,8 +1,10 @@
 {
-  "item.shung.shungite": "Shungite",
+  "item.shung.polished_shungite": "Polished Shungite",
   "item.shung.raw_shungite": "Raw Shungite",
 
   "itemGroup.shuntab": "Shungite Tab",
 
-  "block.shung.shungite_block": "Shungite block"
+  "block.shung.shungite_block": "Shungite Block",
+  "block.shung.polished_shungite_block": "Polished Shungite Block",
+  "block.shung.polished_shungite_bricks": "Polished Shungite Bricks"
 }
