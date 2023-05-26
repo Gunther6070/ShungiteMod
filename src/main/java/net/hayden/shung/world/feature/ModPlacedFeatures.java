@@ -16,8 +16,8 @@ public class ModPlacedFeatures {
 
     public static final RegistryObject<PlacedFeature> SHUNGITE_BLOCK_PLACED = PLACED_FEATURES.register("shungite_block_placed",
             () -> new PlacedFeature(ModConfiguredFeatures.SHUNGITE_BLOCK.getHolder().get(),
-                    commonOrePlacement(7, // VeinsPerChunk
-                            HeightRangePlacement.triangle(VerticalAnchor.bottom(), VerticalAnchor.absolute(16)))));
+                    commonOrePlacement(1, // VeinsPerChunk
+                            HeightRangePlacement.triangle(VerticalAnchor.absolute(-63), VerticalAnchor.absolute(-16)))));
 
     public static List<PlacementModifier> orePlacement(PlacementModifier p_195347_, PlacementModifier p_195348_) {
         return List.of(p_195347_, InSquarePlacement.spread(), p_195348_, BiomeFilter.biome());
