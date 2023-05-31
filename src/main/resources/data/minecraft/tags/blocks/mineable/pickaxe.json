@@ -1,8 +1,16 @@
 {
   "replace": false,
   "values": [
-    "shung:shungite_block",
+    "shung:shungite",
     "shung:polished_shungite_block",
-    "shung:polished_shungite_bricks"
+    "shung:polished_shungite_bricks",
+    "shung:polished_shungite_slab",
+    "shung:polished_shungite_stairs",
+    "shung:shungite_slab",
+    "shung:shungite_stairs",
+    "shung:polished_shungite_brick_stairs",
+    "shung:polished_shungite_brick_slab",
+    "shung:shungite_wall",
+    "shung:polished_shungite_brick_wall"
   ]
 }

@@ -1,10 +1,22 @@
 {
   "item.shung.polished_shungite": "Polished Shungite",
   "item.shung.raw_shungite": "Raw Shungite",
+  "item.shung.shungite_axe": "Shungite Axe",
+  "item.shung.shungite_pickaxe": "Shungite Pickaxe",
+  "item.shung.shungite_sword": "Shungite Sword",
+  "item.shung.shungite_hoe": "Shungite Hoe",
+  "item.shung.shungite_shovel": "Shungite Shovel",
 
   "itemGroup.shuntab": "Shungite Tab",
 
   "block.shung.shungite_block": "Shungite Block",
   "block.shung.polished_shungite_block": "Polished Shungite Block",
-  "block.shung.polished_shungite_bricks": "Polished Shungite Bricks"
+  "block.shung.polished_shungite_slab": "Polished Shungite Slab",
+  "block.shung.polished_shungite_stairs": "Polished Shungite Stairs",
+  "block.shung.polished_shungite_bricks": "Polished Shungite Bricks",
+  "block.shung.polished_shungite_brick_stairs": "Polished Shungite Brick Stairs",
+  "block.shung.polished_shungite_brick_slab": "Polished Shungite Brick Slab",
+  "block.shung.shungite_wall": "Shungite Wall",
+  "block.shung.polished_shungite_brick_wall": "Polished Shungite Brick Wall",
+  "block.shung.shungite_stove": "Shungite Stove"
 }

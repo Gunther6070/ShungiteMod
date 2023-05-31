@@ -22,8 +22,8 @@ public class ModConfiguredFeatures {
             DeferredRegister.create(Registry.CONFIGURED_FEATURE_REGISTRY, Shung.MOD_ID);
 
     public static final Supplier<List<OreConfiguration.TargetBlockState>> OVERWORLD_SHUNGITE_BLOCK = Suppliers.memoize(() -> List.of(
-            OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, ModBlocks.SHUNGITE_BLOCK.get().defaultBlockState()),
-            OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, ModBlocks.SHUNGITE_BLOCK.get().defaultBlockState())));
+            OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, ModBlocks.SHUNGITE.get().defaultBlockState()),
+            OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, ModBlocks.SHUNGITE.get().defaultBlockState())));
 
     public static final RegistryObject<ConfiguredFeature<?, ?>> SHUNGITE_BLOCK = CONFIGURED_FEATURES.register("shungite_block",
             () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(OVERWORLD_SHUNGITE_BLOCK.get(), 22)));

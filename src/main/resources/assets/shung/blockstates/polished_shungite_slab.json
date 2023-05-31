@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "shung:block/polished_shungite_slab"
+    },
+    "type=double": {
+      "model": "shung:block/polished_shungite_slab_double"
+    },
+    "type=top": {
+      "model": "shung:block/polished_shungite_slab_top"
+    }
+  }
+}

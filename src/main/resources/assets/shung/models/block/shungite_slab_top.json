@@ -1,8 +1,8 @@
 {
   "parent": "minecraft:block/slab_top",
   "textures": {
-    "bottom": "shung:block/shungite_block",
-    "side": "shung:block/shungite_block",
-    "top": "shung:block/shungite_block"
+    "bottom": "shung:block/shungite",
+    "side": "shung:block/shungite",
+    "top": "shung:block/shungite"
   }
 }
