@@ -9,7 +9,9 @@
 
   "itemGroup.shuntab": "Shungite Tab",
 
-  "block.shung.shungite_block": "Shungite Block",
+  "block.shung.shungite": "Shungite",
+  "block.shung.shungite_stairs": "Shungite Stairs",
+  "block.shung.shungite_slab": "Shungite Slab",
   "block.shung.polished_shungite_block": "Polished Shungite Block",
   "block.shung.polished_shungite_slab": "Polished Shungite Slab",
   "block.shung.polished_shungite_stairs": "Polished Shungite Stairs",
