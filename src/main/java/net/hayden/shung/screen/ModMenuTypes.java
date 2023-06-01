@@ -14,8 +14,8 @@ public class ModMenuTypes {
     public static final DeferredRegister<MenuType<?>> MENUS =
             DeferredRegister.create(ForgeRegistries.MENU_TYPES, Shung.MOD_ID);
 
-    public static final RegistryObject<MenuType<ShungiteStoveMenu>> GEM_INFUSING_STATION_MENU =
-            registerMenuType(ShungiteStoveMenu::new, "gem_infusing_station_menu");
+    public static final RegistryObject<MenuType<ShungiteStoveMenu>> shungite_stove_menu =
+            registerMenuType(ShungiteStoveMenu::new, "shungite_stove_menu");
 
 
     private static <T extends AbstractContainerMenu> RegistryObject<MenuType<T>> registerMenuType(IContainerFactory<T> factory,

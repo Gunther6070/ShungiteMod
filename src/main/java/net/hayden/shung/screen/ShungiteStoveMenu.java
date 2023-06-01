@@ -22,7 +22,7 @@ public class ShungiteStoveMenu extends AbstractContainerMenu {
     }
 
     public ShungiteStoveMenu(int id, Inventory inv, BlockEntity entity, ContainerData data) {
-        super(ModMenuTypes.GEM_INFUSING_STATION_MENU.get(), id);
+        super(ModMenuTypes.shungite_stove_menu.get(), id);
         checkContainerSize(inv, 3);
         blockEntity = (ShungiteStoveBlockEntity) entity;
         this.level = inv.player.level;

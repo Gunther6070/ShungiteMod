@@ -2,7 +2,10 @@ package net.hayden.shung;
 
 import com.mojang.logging.LogUtils;
 import net.hayden.shung.block.ModBlocks;
+import net.hayden.shung.block.entity.ModBlockEntities;
 import net.hayden.shung.item.ModItems;
+import net.hayden.shung.recipe.ModRecipes;
+import net.hayden.shung.screen.ModMenuTypes;
 import net.hayden.shung.world.feature.ModConfiguredFeatures;
 import net.hayden.shung.world.feature.ModPlacedFeatures;
 import net.minecraftforge.api.distmarker.Dist;
@@ -29,6 +32,11 @@ public class Shung {
 
         ModConfiguredFeatures.register(modEventBus);
         ModPlacedFeatures.register(modEventBus);
+
+        ModBlockEntities.register(modEventBus);
+        ModMenuTypes.register(modEventBus);
+
+        ModRecipes.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
